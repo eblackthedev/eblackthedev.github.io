@@ -1,0 +1,78 @@
+body {
+  background: #242222;
+}
+
+.ulAll {
+  display: flex;
+  flex-direction: row;
+
+  width: 50%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.squareWrapper {
+  display: inline-block;
+  /* margin: auto; */
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  width: 240px;
+  height: 240px;
+  background: rgb(216, 209, 209);
+}
+
+.projects {
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  background: #464141;
+}
+
+.navbar-nav {
+  margin-left: 5%;
+}
+
+footer {
+  background: #464141;
+  margin-top: 160px;
+  height: 350px;
+}
+
+.mb-3 {
+  color: white;
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 10%;
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.linkText {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-size: 33px;
+}
+
+.fa {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.iconStyle {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
