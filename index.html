@@ -134,29 +134,33 @@
     <footer>
       <h3 class="contactMe">Contact Me</h3>
 
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label"
-          >Email address</label
-        >
-        <input
-          type="email"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="name@example.com"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"
-          >Message</label
-        >
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
-      </div>
+      <form action="https://formspree.io/f/mayalwbe" method="POST">
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">
+            Your email:
+            <input
+              id="emailInput"
+              type="email"
+              name="_replyto"
+              class="form-control"
+            />
+          </label>
+        </div>
 
-      <button>Send</button>
+        <div class="mb-3">
+          <label for="messageInput" class="form-label">
+            Your message:
+            <textarea
+              id="messageInput"
+              name="message"
+              class="form-control"
+            ></textarea>
+          </label>
+        </div>
+        <!-- your other form fields go here -->
+
+        <button type="submit">Send</button>
+      </form>
     </footer>
 
     <script
