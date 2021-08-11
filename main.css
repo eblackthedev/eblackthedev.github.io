@@ -27,7 +27,8 @@ body {
   background: rgb(216, 209, 209);
 }
 
-.projects {
+.projects,
+.headline {
   margin-top: 5%;
   color: white;
   text-align: center;
@@ -47,7 +48,8 @@ footer {
   height: 350px;
 }
 
-.mb-3 {
+.mb-3,
+.contactMe {
   color: white;
   margin-top: 20px;
   width: 50%;
